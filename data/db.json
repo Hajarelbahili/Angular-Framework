@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "password": "MTIzNA==",
+      "roles": ["USER"],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNjE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3RuYW1lIjoibW9oYW1lZCIsImxhc3RuYW1lIjoiYmVuIiwiZW1haWwiOiJtZWQuYmVuQGdtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiXX0.FfGp4rqAAtrtV8Sv48jAEqm25TOfubxZ2sZxv0_8VTM"
+    },
+    {
+      "id": "user2",
+      "password": "MTIzNA==",
+      "roles": ["USER"],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMiIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNjE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3RuYW1lIjoibW9oYW1lZCIsImxhc3RuYW1lIjoiYmVuIiwiZW1haWwiOiJtZWQuYmVuQGdtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiXX0.fxy-yI8RGIW-TkiOXO7Oy-LKPBUvF17JEofrLZ6zkKc"
+    },
+    {
+      "id": "admin",
+      "password": "MTIzNA==",
+      "roles": ["USER", "ADMIN"],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNjE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3RuYW1lIjoibW9oYW1lZCIsImxhc3RuYW1lIjoiYmVuIiwiZW1haWwiOiJtZWQuYmVuQGdtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiJdfQ.CUICVCYgD7XUruTpBppKMt_eqGKxCekIF1QPZNiB5E0"
+    }
+  ],
+  "products": [
+    {
+      "id": "7a23",
+      "name": "scanner",
+      "price": "500",
+      "checked": true
+    },
+    {
+      "id": "d145",
+      "name": "laptop",
+      "price": "600",
+      "checked": true
+    },
+    {
+      "name": "smart watch ",
+      "price": "900",
+      "checked": true,
+      "id": "rIHMCNH"
+    },
+    {
+      "name": "iphone",
+      "price": "500",
+      "checked": true,
+      "id": "WZQcFgV"
+    },
+    {
+      "name": "smart phone",
+      "price": "600",
+      "checked": false,
+      "id": "qTwW2Iq"
+    },
+    {
+      "name": "dd",
+      "price": "dd",
+      "checked": false,
+      "id": "gtbDTOh"
+    }
+  ]
+}

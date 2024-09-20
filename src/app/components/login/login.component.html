@@ -1,0 +1,52 @@
+<div class="p-3">
+  <div class="card">
+    <div class="card-header">Authentication</div>
+
+    <!-- Error message if login fails -->
+    <div class="alert alert-danger" *ngIf="errorMessage">
+      {{ errorMessage }}
+    </div>
+
+    <div>
+      <form [formGroup]="formLogin" (ngSubmit)="handleLogin()">
+        <div class="m-3">
+          <label class="form-label">Username</label>
+          <input formControlName="username" type="text" class="form-control" />
+          <!-- Show validation error for username -->
+          <small
+            *ngIf="
+              formLogin.get('username')?.touched &&
+              formLogin.get('username')?.invalid
+            "
+            class="text-danger"
+          >
+            Username is required
+          </small>
+        </div>
+
+        <div class="m-3">
+          <label class="form-label">Password</label>
+          <input
+            formControlName="password"
+            type="password"
+            class="form-control"
+          />
+          <!-- Show validation error for password -->
+          <small
+            *ngIf="
+              formLogin.get('password')?.touched &&
+              formLogin.get('password')?.invalid
+            "
+            class="text-danger"
+          >
+            Password is required
+          </small>
+        </div>
+
+        <div class="m-3">
+          <button type="submit" class="btn btn-success ms-2">Login</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
